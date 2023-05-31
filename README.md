@@ -27,12 +27,12 @@ Print the characters and its huffmancode.
 
 ## Program:
 ```
-Developed by: ASHWIN AO
-Registration no: 212220230005
+Developed by: AK MOHAN RAJ
+Registration no: 212221230064
 ```
 ``` Python
 # Get the input String
-string = 'My name is Ashwin Ao'
+string = 'MOHAN'
 class NodeTree(object):
     def __init__(self, left=None, right=None): 
         self.left = left
