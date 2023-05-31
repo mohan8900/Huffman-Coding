@@ -31,18 +31,13 @@ Registration no: 212221230064
 ```
 ``` Python
 # Get the input String
-string = 'MOHAN'
+string = 'MOHAN RAJ A K'
 class NodeTree(object):
     def __init__(self, left=None, right=None): 
         self.left = left
         self.right=right
     def children(self):
-        return (self.left,self.right)
-    def nodes (self):
-        return (self.left,self.right)
-    def __str__(self):
-        return '%s %s' %(self.left,self.right)
-        
+      return(self.left, self.right)
 # Create tree nodes
 def huffman_code_tree (node, left=True, binString=''):
     if type(node) is str:
